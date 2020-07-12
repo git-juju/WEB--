@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca880f5a-37de-4d5d-8b9e-a00fab9cf4df" name="Default Changelist" comment="" />
+    <list default="true" id="ca880f5a-37de-4d5d-8b9e-a00fab9cf4df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/shared/_user_info.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/users/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/users/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -216,26 +225,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="596" height="244" key="GridCell.Tab.0.bottom" timestamp="1594550598076">
+    <state width="1878" height="244" key="GridCell.Tab.0.bottom" timestamp="1594574911471">
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
-    <state width="596" height="244" key="GridCell.Tab.0.bottom/0.23.1920.1002@0.23.1920.1002" timestamp="1594550598076" />
-    <state width="596" height="244" key="GridCell.Tab.0.center" timestamp="1594550598075">
+    <state width="1878" height="244" key="GridCell.Tab.0.bottom/0.23.1920.1002@0.23.1920.1002" timestamp="1594574911471" />
+    <state width="1878" height="244" key="GridCell.Tab.0.center" timestamp="1594574911471">
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
-    <state width="596" height="244" key="GridCell.Tab.0.center/0.23.1920.1002@0.23.1920.1002" timestamp="1594550598075" />
-    <state width="596" height="244" key="GridCell.Tab.0.left" timestamp="1594550598075">
+    <state width="1878" height="244" key="GridCell.Tab.0.center/0.23.1920.1002@0.23.1920.1002" timestamp="1594574911471" />
+    <state width="1878" height="244" key="GridCell.Tab.0.left" timestamp="1594574911470">
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
-    <state width="596" height="244" key="GridCell.Tab.0.left/0.23.1920.1002@0.23.1920.1002" timestamp="1594550598075" />
-    <state width="596" height="244" key="GridCell.Tab.0.right" timestamp="1594550598076">
+    <state width="1878" height="244" key="GridCell.Tab.0.left/0.23.1920.1002@0.23.1920.1002" timestamp="1594574911470" />
+    <state width="1878" height="244" key="GridCell.Tab.0.right" timestamp="1594574911471">
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
-    <state width="596" height="244" key="GridCell.Tab.0.right/0.23.1920.1002@0.23.1920.1002" timestamp="1594550598076" />
-    <state x="292" y="451" key="NewPhpFileDialog" timestamp="1594550559119">
+    <state width="1878" height="244" key="GridCell.Tab.0.right/0.23.1920.1002@0.23.1920.1002" timestamp="1594574911471" />
+    <state x="292" y="451" key="NewPhpFileDialog" timestamp="1594574621055">
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
-    <state x="292" y="451" key="NewPhpFileDialog/0.23.1920.1002@0.23.1920.1002" timestamp="1594550559119" />
+    <state x="292" y="451" key="NewPhpFileDialog/0.23.1920.1002@0.23.1920.1002" timestamp="1594574621055" />
     <state x="609" y="267" width="701" height="514" key="find.popup" timestamp="1594570380877">
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
