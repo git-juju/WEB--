@@ -2,14 +2,26 @@
 
 namespace App\Http\Controllers;
 
-use Dotenv\Regex\Success;
 use Illuminate\Http\Request;
 use App\Models\User;
-use Mockery\Matcher\Subset;
-use MongoDB\Driver\Session;
+use Auth;
+use Illuminate\View\View;
 
 class UsersController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth', [
+            'except' => ['show', 'create', 'store']
+        ]);
+    }
+
+    public function index()
+    {
+    $users = User::paginate(5);
+    return View('users.index',compact('users'));
+    }
+
     public function create()
     {
         return view('users.create');
@@ -19,6 +31,7 @@ class UsersController extends Controller
     {
         return view('users.show', compact('user'));
     }
+
     public function store(Request $request)
     {
         $this->validate($request, [
@@ -31,8 +44,35 @@ class UsersController extends Controller
             'email' => $request->email,
             'password' => bcrypt($request->password),
         ]);
-        Session()->flash('success','欢迎，您将在这里开启一段新的旅程~');
-        return redirect()->route('users.show',[$User]);
+        Auth::login($User);
+        Session()->flash('success', '欢迎，您将在这里开启一段新的旅程~');
+        return redirect()->route('users.show', [$User]);
     }
 
+    public function edit(User $user)
+    {
+        return view('users.edit', compact('user'));
+    }
+
+    public function update(User $user, Request $request)
+    {
+        $this->validate($request, [
+            'name' => 'required|min:3|max:50',
+            'password' => 'required|confirmed|min:6|max:18'
+        ]);
+        $date = [];
+        $date ['name'] = $request->name;
+        if ($request->password) {
+            $date['password'] = bcrypt($request->password);
+        }
+        $user->update($date);
+        session()->flash('success', '更新成功');
+
+//            $user->update([
+//                'name' => $request->name,
+//                'password' => bcrypt($request->password)
+//            ]);
+
+        return redirect()->route('users.show', $user);
+    }
 }
