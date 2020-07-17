@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca880f5a-37de-4d5d-8b9e-a00fab9cf4df" name="Default Changelist" comment="COMMIT &quot;邮箱验证&quot;">
-      <change afterPath="$PROJECT_DIR$/resources/views/shared/_feed.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StaticPagesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/StaticPagesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StatusesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/StatusesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/static_pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/static_pages/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/statuses/_status.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/statuses/_status.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +220,7 @@
       <workItem from="1594544370472" duration="2599000" />
       <workItem from="1594775901690" duration="1660000" />
       <workItem from="1594831201051" duration="29752000" />
-      <workItem from="1594986190229" duration="5457000" />
+      <workItem from="1594986190229" duration="8298000" />
     </task>
     <task id="LOCAL-00001" summary="COMMIT &quot;邮箱验证&quot;">
       <created>1594920107970</created>
@@ -243,6 +243,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="COMMIT &quot;邮箱验证&quot;" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="581" y="181" key="#phpunit.xml" timestamp="1595017058608">
+      <screen x="0" y="23" width="1920" height="1002" />
+    </state>
+    <state x="581" y="181" key="#phpunit.xml/0.23.1920.1002@0.23.1920.1002" timestamp="1595017058608" />
     <state x="540" y="136" key="CommitChangelistDialog2" timestamp="1594920116791">
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
