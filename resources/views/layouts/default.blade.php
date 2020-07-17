@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>@yield('title','Weibo App')</title>
+    <title>@yield('title','畅游中国')</title>
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 </head>
 <body>
