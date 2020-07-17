@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca880f5a-37de-4d5d-8b9e-a00fab9cf4df" name="Default Changelist" comment="COMMIT &quot;邮箱验证&quot;">
+      <change afterPath="$PROJECT_DIR$/resources/views/statuses/_status.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/show.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +219,8 @@
       <workItem from="1594463836931" duration="4228000" />
       <workItem from="1594544370472" duration="2599000" />
       <workItem from="1594775901690" duration="1660000" />
-      <workItem from="1594831201051" duration="29670000" />
+      <workItem from="1594831201051" duration="29752000" />
+      <workItem from="1594986190229" duration="2888000" />
     </task>
     <task id="LOCAL-00001" summary="COMMIT &quot;邮箱验证&quot;">
       <created>1594920107970</created>
@@ -244,26 +247,26 @@
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
     <state x="540" y="136" key="CommitChangelistDialog2/0.23.1920.1002@0.23.1920.1002" timestamp="1594920116791" />
-    <state width="1878" height="244" key="GridCell.Tab.0.bottom" timestamp="1594895038497">
+    <state width="1878" height="244" key="GridCell.Tab.0.bottom" timestamp="1594984005047">
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
-    <state width="1878" height="244" key="GridCell.Tab.0.bottom/0.23.1920.1002@0.23.1920.1002" timestamp="1594895038497" />
-    <state width="1878" height="244" key="GridCell.Tab.0.center" timestamp="1594895038497">
+    <state width="1878" height="244" key="GridCell.Tab.0.bottom/0.23.1920.1002@0.23.1920.1002" timestamp="1594984005047" />
+    <state width="1878" height="244" key="GridCell.Tab.0.center" timestamp="1594984005047">
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
-    <state width="1878" height="244" key="GridCell.Tab.0.center/0.23.1920.1002@0.23.1920.1002" timestamp="1594895038497" />
-    <state width="1878" height="244" key="GridCell.Tab.0.left" timestamp="1594895038496">
+    <state width="1878" height="244" key="GridCell.Tab.0.center/0.23.1920.1002@0.23.1920.1002" timestamp="1594984005047" />
+    <state width="1878" height="244" key="GridCell.Tab.0.left" timestamp="1594984005047">
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
-    <state width="1878" height="244" key="GridCell.Tab.0.left/0.23.1920.1002@0.23.1920.1002" timestamp="1594895038496" />
-    <state width="1878" height="244" key="GridCell.Tab.0.right" timestamp="1594895038497">
+    <state width="1878" height="244" key="GridCell.Tab.0.left/0.23.1920.1002@0.23.1920.1002" timestamp="1594984005047" />
+    <state width="1878" height="244" key="GridCell.Tab.0.right" timestamp="1594984005047">
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
-    <state width="1878" height="244" key="GridCell.Tab.0.right/0.23.1920.1002@0.23.1920.1002" timestamp="1594895038497" />
-    <state x="292" y="451" key="NewPhpFileDialog" timestamp="1594967547525">
+    <state width="1878" height="244" key="GridCell.Tab.0.right/0.23.1920.1002@0.23.1920.1002" timestamp="1594984005047" />
+    <state x="292" y="451" key="NewPhpFileDialog" timestamp="1595009971440">
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
-    <state x="292" y="451" key="NewPhpFileDialog/0.23.1920.1002@0.23.1920.1002" timestamp="1594967547525" />
+    <state x="292" y="451" key="NewPhpFileDialog/0.23.1920.1002@0.23.1920.1002" timestamp="1595009971440" />
     <state x="100" y="123" width="1720" height="802" key="dock-window-1" timestamp="1594908561563">
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
