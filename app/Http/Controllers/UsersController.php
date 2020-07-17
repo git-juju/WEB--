@@ -89,7 +89,7 @@ class UsersController extends Controller
         $from = '896412698@qq.com';
         $name = '小驹驹！';
         $to = $user->email;
-        $subject = "感谢注册 Weibo 应用！请确认你的邮箱。";
+        $subject = "感谢注册 畅游中国APP 应用！请确认你的邮箱。";
 
         Mail::send($view, $data, function ($message) use ($from, $name, $to, $subject) {
             $message->from($from, $name)->to($to)->subject($subject);
