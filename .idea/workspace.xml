@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca880f5a-37de-4d5d-8b9e-a00fab9cf4df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/emails/confirm.blade.php" afterDir="false" />
+    <list default="true" id="ca880f5a-37de-4d5d-8b9e-a00fab9cf4df" name="Default Changelist" comment="COMMIT &quot;邮箱验证&quot;">
+      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SessionsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SessionsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/users/_user.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/_user.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sessions/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sessions/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -225,8 +220,16 @@
       <workItem from="1594463836931" duration="4228000" />
       <workItem from="1594544370472" duration="2599000" />
       <workItem from="1594775901690" duration="1660000" />
-      <workItem from="1594831201051" duration="18071000" />
+      <workItem from="1594831201051" duration="22559000" />
     </task>
+    <task id="LOCAL-00001" summary="COMMIT &quot;邮箱验证&quot;">
+      <created>1594920107970</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594920107970</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +237,10 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="COMMIT &quot;邮箱验证&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="COMMIT &quot;邮箱验证&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="540" y="136" key="CommitChangelistDialog2" timestamp="1594920116791">
@@ -256,10 +263,10 @@
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
     <state width="1878" height="244" key="GridCell.Tab.0.right/0.23.1920.1002@0.23.1920.1002" timestamp="1594895038497" />
-    <state x="292" y="451" key="NewPhpFileDialog" timestamp="1594917377156">
+    <state x="292" y="451" key="NewPhpFileDialog" timestamp="1594932561936">
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
-    <state x="292" y="451" key="NewPhpFileDialog/0.23.1920.1002@0.23.1920.1002" timestamp="1594917377156" />
+    <state x="292" y="451" key="NewPhpFileDialog/0.23.1920.1002@0.23.1920.1002" timestamp="1594932561936" />
     <state x="100" y="123" width="1720" height="802" key="dock-window-1" timestamp="1594908561563">
       <screen x="0" y="23" width="1920" height="1002" />
     </state>
