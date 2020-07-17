@@ -12,7 +12,9 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="{{ route('users.show', Auth::User()) }}">个人中心</a>
                         <a class="dropdown-item" href="{{ route('users.edit', Auth::User()) }}">编辑资料</a>
+                        <a class="dropdown-item" href="{{ route( 'login') }}">切换用户</a>
                         <div class="dropdown-divider"></div>
+
                         <a class="dropdown-item" id="logout" href="#">
                             <form action="{{ route('logout') }}" method="POST">
                                 {{ csrf_field() }}
