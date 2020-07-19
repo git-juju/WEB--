@@ -9,6 +9,13 @@
                     <section class="user_info">
                         @include('shared._user_info', ['user' => $user])
                     </section>
+                    @if (Auth::check())
+                        @include('users._follow_form')
+                    @endif
+                    <section class="stats mt-2">
+                        @include('shared._stats', ['user' => $user])
+                    </section>
+                    <hr>
                     <section class="status">
                         @if ($statuses->count() > 0)
                             <ul class="list-unstyled">
@@ -20,7 +27,7 @@
                                 {!! $statuses->render() !!}
                             </div>
                         @else
-                            <p>没有数据！</p>
+                            <p>没有数据！<a href="http://xiaojuju2.test">写博客</a></p>
                         @endif
                     </section>
                 </div>
